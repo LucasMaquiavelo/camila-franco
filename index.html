@@ -214,21 +214,30 @@
         <button class="btn-action btn-custom-color" onclick="window.open('https://open.spotify.com/playlist/3q58rByOccLZEX4qZN19fs?si=3ccacc688bc24b92&pt=3c30d232e30e3f9008c609cf7684d397')">Sugerir Canción</button>
     </div>
 
-    <div class="section-card section-content" style="background-color: var(--bg-crema);">
-        <p class="section-title">Dress Code</p>
-        <div style="display: flex; justify-content: center; gap: 30px; margin: 20px 0; opacity: 0.5;">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M6 2L3 7v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-3-5H6z"></path>
-                <path d="M16 7a4 4 0 0 1-8 0"></path>
-                <line x1="12" y1="11" x2="12" y2="22"></line>
-            </svg>
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2L9 7h6l-3-5z"></path>
-                <path d="M9 7l-3 15h12L15 7H9z"></path>
-            </svg>
-        </div>
-        <p style="font-family: 'Lora', serif; font-size: 1.1em; color: var(--text-dark); letter-spacing: 1px;">Vestimenta formal, elegante</p>
+<div class="section-card section-content" style="background-color: var(--bg-crema); padding-top: 60px; padding-bottom: 60px;">
+    
+    <p class="section-title">Dress Code</p>
+    
+    <div style="margin: 30px 0 35px 0; opacity: 0.7; text-align: center;">
+        <svg width="65" height="65" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block;">
+            <path d="M6.5 8c-2.5 0-4.5 2-4.5 4.5s2 4.5 4.5 4.5c1.5 0 2.5-1 3.5-2.5l1.5-2 1.5 2c1 1.5 2 2.5 3.5 2.5 2.5 0 4.5-2 4.5-4.5s-2-4.5-4.5-4.5c-1.5 0-2.5 1-3.5 2.5l-1.5 2-1.5-2c-1-1.5-2-2.5-3.5-2.5z"></path>
+            <circle cx="12" cy="12" r="1.8" fill="#888"></circle>
+        </svg>
     </div>
+
+    <div style="text-align: center;">
+        <p style="font-family: 'Lora', serif; font-size: 1.2em; color: var(--text-dark); letter-spacing: 2px; margin-bottom: 30px; text-transform: uppercase;">Elegante Sport</p>
+
+        <details>
+            <summary style="font-weight: 600; color: var(--beige-dark);">Ver más</summary>
+            <div class="bank-data" style="text-align: left; padding: 25px 20px; background: rgba(255,255,255,0.7); border-radius: 4px; border: none; box-shadow: inset 0 0 10px rgba(0,0,0,0.02);">
+                <p>Nada nos hace mas ilusion que compartir este atardecer con ustedes, el look de la fiesta será <strong>Elegante Sport</strong>.</p>
+                <p style="margin-top: 10px;">Los esperamos con toda su energía (y cualquier color que no sea blanco) para brindar hasta que salga la luna.</p>
+            </div>
+        </details>
+    </div>
+
+</div>
 
 <div class="section-card section-content">
     <p class="section-title">Regalos</p>
@@ -244,7 +253,19 @@
 
 <div class="section-card section-content">
     <p class="section-title">Tips y Notas</p>
+    
+    <div style="margin: 15px 0 25px 0; opacity: 0.6; text-align: center;">
+        <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block;">
+            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+            <line x1="9" y1="12" x2="15" y2="12"></line>
+            <line x1="9" y1="16" x2="15" y2="16"></line>
+            <line x1="9" y1="8" x2="10" y2="8"></line>
+        </svg>
+    </div>
+
     <p style="font-size: 0.95em; color: #666; margin-bottom: 30px; line-height: 1.8;">Información adicional a considerar</p>
+    
     <details>
         <summary>Ver más</summary>
         <div class="bank-data">
@@ -255,7 +276,6 @@
         </div>
     </details>
 </div>
-
     <div class="confirmar-container">
         <button class="btn-action" onclick="window.open('https://forms.gle/7ArEYVWEL16z4vUp8')">Confirmar Asistencia</button>
     </div>
@@ -281,4 +301,5 @@
     </script>
 </body>
 </html>
+
 
