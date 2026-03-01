@@ -64,7 +64,17 @@
 
         .header { padding: 80px 20px 60px; }
         .nos-casamos { font-size: 0.8em; letter-spacing: 6px; color: #999; text-transform: uppercase; margin-bottom: 25px; font-weight: 300; }
-        .header h1 { font-family: 'Lora', serif; font-size: 3.2em; font-weight: 400; color: var(--beige-light); margin-bottom: 10px; }
+        
+        /* INTERLINEADO AJUSTADO */
+        .header h1 { 
+            font-family: 'Lora', serif; 
+            font-size: 3.2em; 
+            font-weight: 400; 
+            color: var(--beige-light); 
+            line-height: 0.8; 
+            margin: 0;
+        }
+
         .header h2 { font-family: 'Lora', serif; font-style: italic; font-size: 1.4em; font-weight: 400; margin-bottom: 25px; }
         .date-divider { font-size: 1em; letter-spacing: 4px; color: var(--beige-light); text-transform: uppercase; display: flex; align-items: center; justify-content: center; gap: 15px; }
         .date-divider::before, .date-divider::after { content: ''; width: 35px; height: 1px; background-color: var(--beige-light); }
@@ -132,12 +142,12 @@
     <div class="section-card header">
         <p class="nos-casamos">NUESTRA BODA</p>
         <h1>Camila</h1>
-        <h1>&</h1>
+        <h1 style="font-size: 2.2em; margin: 15px 0;">&</h1> 
         <h1>Franco</h1>
-        <div class="date-divider">25 . 04 . 2026</div>
+        <div class="date-divider" style="margin-top: 35px;">25 . 04 . 2026</div>
     </div>
 
-   <div class="section-card" style="padding: 50px 30px; background-color: var(--bg-crema);">
+    <div class="section-card" style="padding: 50px 30px; background-color: var(--bg-crema);">
         <p style="font-family: 'Montserrat', sans-serif; font-size: 0.7em; letter-spacing: 3px; line-height: 2.2; color: #888; text-transform: uppercase; font-weight: 400; text-align: center;">
             Que el amor sea el deseo de seguir eligiéndonos en cada risa, para que juntos cumplamos, siempre, más sueños que años.
         </p>
@@ -160,20 +170,18 @@
         </div>
     </div>
 
-<div class="section-card section-info">
+    <div class="section-card section-info">
         <div class="info-block">
             <p class="info-title">Ceremonia & Party</p>
 
             <div style="width: 100%; height: 1px; background-color: var(--beige-light); margin-top: 30px; margin-bottom: 25px;"></div>
 
             <div style="display: flex; flex-direction: column; align-items: center;">
-                
                 <div style="text-align: center; margin-bottom: 15px;">
                     <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85em; letter-spacing: 4px; text-transform: uppercase; color: var(--beige-dark); font-weight: 600;">Abril</p>
                 </div>
 
                 <div style="display: flex; align-items: center; justify-content: center; gap: 20px; width: 100%;">
-                    
                     <div style="text-align: center; flex: 1;">
                         <p style="font-family: 'Montserrat', sans-serif; font-size: 0.9em; letter-spacing: 2px; text-transform: uppercase; color: var(--beige-dark); font-weight: 600; padding-bottom: 8px;">Sábado</p>
                         <div style="width: 100%; height: 1px; background-color: var(--beige-light);"></div>
@@ -207,14 +215,13 @@
         </div>
     </div>
 
-
     <div class="section-card section-content">
         <p class="section-title">Música para la fiesta</p>
         <p style="font-size: 0.9em; margin-bottom: 30px; color: #666; line-height: 1.8;">¿Cuál es la canción que no puede faltar en la lista de reproducción de la fiesta?</p>
         <button class="btn-action btn-custom-color" onclick="window.open('https://open.spotify.com/playlist/3q58rByOccLZEX4qZN19fs?si=3ccacc688bc24b92&pt=3c30d232e30e3f9008c609cf7684d397')">Sugerir Canción</button>
     </div>
 
-<div class="section-card section-content" style="background-color: var(--bg-crema); padding-top: 60px; padding-bottom: 60px;">
+    <div class="section-card section-content" style="background-color: var(--bg-crema); padding-top: 60px; padding-bottom: 60px;">
         <p class="section-title">Dress Code</p>
         
         <div style="margin: 30px 0 35px 0; opacity: 0.7; text-align: center;">
@@ -235,55 +242,52 @@
         </details>
     </div>
 
-<div class="section-card section-content">
-    <p class="section-title">Regalos</p>
-    <p style="font-size: 0.95em; color: #666; margin-bottom: 30px; line-height: 1.8;">Nuestro mejor regalo será su compañía, pero si un obsequio desean hacernos estaremos agradecidos.</p>
-    <details>
-        <summary>Ver Datos</summary>
-        <div class="bank-data">
-            <p>Elegirse cada día es un acto de libertad, y celebrarlo con ustedes es nuestra mayor alegría.</p>
-            <p style="margin-top: 10px;">Para quienes deseen hacernos un obsequio, tendremos una urna en el salón para recibir sus deseos y sumar a nuestros proyectos, o pueden usar nuestro Alias: <strong>boda-camiyfran</strong> si les parece más comodo.</p>
-        </div>
-    </details>
-</div>
-
-<div class="section-card section-content">
-    <p class="section-title">Tips y Notas</p>
-    
-    <div style="margin: 15px 0 25px 0; opacity: 0.6; text-align: center;">
-        <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block;">
-            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
-            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
-            <line x1="9" y1="12" x2="15" y2="12"></line>
-            <line x1="9" y1="16" x2="15" y2="16"></line>
-            <line x1="9" y1="8" x2="10" y2="8"></line>
-        </svg>
+    <div class="section-card section-content">
+        <p class="section-title">Regalos</p>
+        <p style="font-size: 0.95em; color: #666; margin-bottom: 30px; line-height: 1.8;">Nuestro mejor regalo será su compañía, pero si un obsequio desean hacernos estaremos agradecidos.</p>
+        <details>
+            <summary>Ver Datos</summary>
+            <div class="bank-data">
+                <p>Elegirse cada día es un acto de libertad, y celebrarlo con ustedes es nuestra mayor alegría.</p>
+                <p style="margin-top: 10px;">Para quienes deseen hacernos un obsequio, tendremos una urna en el salón para recibir sus deseos y sumar a nuestros proyectos, o pueden usar nuestro Alias: <strong>boda-camiyfran</strong> si les parece más comodo.</p>
+            </div>
+        </details>
     </div>
 
-    <p style="font-size: 0.95em; color: #666; margin-bottom: 30px; line-height: 1.8;">Información adicional a considerar</p>
-    
-    <details>
-        <summary>Ver más</summary>
-        <div class="bank-data">
-            <p><strong>Puntualidad:</strong> Los esperamos a horario para no perdernos ni un momento.</p>
-            <p style="margin-top: 10px;"><strong>Abrigo:</strong> No olvidar un abrigo, para disfrutar de los lugares exteriores.</p>
-            <p style="margin-top: 10px;"><strong>Menú:</strong> Si tenes alguna restricción alimentaria o sos celíaco, por favor no olvides mencionarlo en la planilla de confrimacion al final de la invitación.</p>
-            <p style="margin-top: 10px;"><strong>Confirmación:</strong> Por favor, confirmen su asistencia antes del 1 de Abril.</p>
+    <div class="section-card section-content">
+        <p class="section-title">Tips y Notas</p>
+        <div style="margin: 15px 0 25px 0; opacity: 0.6; text-align: center;">
+            <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block;">
+                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                <line x1="9" y1="12" x2="15" y2="12"></line>
+                <line x1="9" y1="16" x2="15" y2="16"></line>
+                <line x1="9" y1="8" x2="10" y2="8"></line>
+            </svg>
         </div>
-    </details>
-</div>
+        <p style="font-size: 0.95em; color: #666; margin-bottom: 30px; line-height: 1.8;">Información adicional a considerar</p>
+        <details>
+            <summary>Ver más</summary>
+            <div class="bank-data">
+                <p><strong>Puntualidad:</strong> Los esperamos a horario para no perdernos ni un momento.</p>
+                <p style="margin-top: 10px;"><strong>Abrigo:</strong> No olvidar un abrigo, para disfrutar de los lugares exteriores.</p>
+                <p style="margin-top: 10px;"><strong>Menú:</strong> Si tenes alguna restricción alimentaria o sos celíaco, por favor no olvides mencionarlo en la planilla de confrimacion al final de la invitación.</p>
+                <p style="margin-top: 10px;"><strong>Confirmación:</strong> Por favor, confirmen su asistencia antes del 1 de Abril.</p>
+            </div>
+        </details>
+    </div>
+
     <div class="confirmar-container">
         <button class="btn-action" onclick="window.open('https://forms.gle/7ArEYVWEL16z4vUp8')">Confirmar Asistencia</button>
     </div>
 
-<div class="footer" style="margin-top: 50px; padding: 40px 20px; text-align: center;">
-        <div style="display: inline-block; padding: 15px;">
-            <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85em; font-weight: 500; letter-spacing: 4px; text-transform: uppercase; color: white; margin-bottom: 20px; text-shadow: 0 1px 4px rgba(0,0,0,0.4);">
+    <div class="footer" style="margin-top: 50px; padding: 40px 20px; text-align: center;">
+        <div style="background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(4px); display: inline-block; padding: 25px 45px; border-radius: 4px; border: 1px solid rgba(255, 255, 255, 0.15);">
+            <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85em; font-weight: 600; letter-spacing: 5px; text-transform: uppercase; color: white; margin-bottom: 20px; text-shadow: 0 1px 4px rgba(0,0,0,0.2);">
                 Con amor, Camila & Franco
             </p>
-            
-            <div style="display: flex; justify-content: center; opacity: 0.9;">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <div style="display: flex; justify-content: center;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.9;">
                     <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                 </svg>
             </div>
@@ -307,4 +311,6 @@
     </script>
 </body>
 </html>
+</html>
+
 
